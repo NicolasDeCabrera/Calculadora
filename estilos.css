@@ -1,0 +1,110 @@
+
+body{
+	margin:0px;
+	padding: 0px;
+}
+
+
+.granContenedor{
+
+	width: 450px;
+	background: #000;
+	margin:auto;
+	padding-bottom: 50px;
+	border-radius: 5px 5px 20px 20px;
+	display: flex;
+	justify-content: space-around;
+	background: #888;
+}
+
+.marca{
+
+	background: #555;
+	width: 445px;
+	height: 150px;
+	margin: 30px auto 0px auto;
+	border-radius: 5px 5px 0px 0px;
+   
+}
+
+.marcaNombre{
+	width: 300px;
+	height:120px; 
+	margin:auto;
+	display: flex;
+	color: #333;
+	background: #eee;	
+    justify-content: center;
+
+
+
+}
+
+.marcaNombre b{
+
+	font-family: Microsoft Sans Serif;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top:10px;
+}
+
+.marcaNombre i{
+
+    font-size: 30px;
+    font-weight: lighter;
+ 
+}
+
+.marcaNombre h1{
+
+	margin-top: 60px;
+	text-align: center;
+	display:block;
+} 
+
+.contenedor{
+    
+    justify-content: center;
+	display: grid;
+	grid-template-columns: repeat(5 ,50px);
+	grid-template-rows:repeat(4, 45px);
+	grid-column-gap: 25px;
+	grid-row-gap: 25px; 
+	background: #888;
+
+}
+
+.display{
+    
+    width: 320px;
+    height: 100px;
+	margin:0px 0px 80px 0px; 
+	background: rgba(5,0,15,.6);
+    font-size: 25px;
+	color: rgba(0,150,150,.8);
+	text-align: center;
+    border: 50px solid rgba(0,0,0,.1);
+
+}
+
+
+.btn{
+
+	font-size: 20px;
+	color: #fff;
+	border:2px solid #333;
+	border-radius: 5px;
+	
+
+}
+
+
+.negro{
+	background: #000;
+}
+.gris{
+	background: #444;
+}
+.amarillo{
+	background: #db0;
+}
